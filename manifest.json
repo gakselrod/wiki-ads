@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Wiki-Ads",
+  "description": "Donate to Wikipedia by viewing advertisements when you visit it.",
+  "version": "1.0",
+  "content_scripts": [
+      {
+        "matches": ["http://*.wikipedia.org/*","http://*.wiki-ads.com/*"],
+        "js": ["contentscript.js"],
+        "run_at":"document_end"
+      }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": { "128": "icon128.png" }
+}
