@@ -6,13 +6,10 @@
   "version": "1.0",
   "content_scripts": [
       {
-        "matches": ["http://*.wikipedia.org/*","http://*.wiki-ads.com/*"],
+        "matches": ["http://*.wikipedia.org/*","http://*.wiki-ads.com/*","https://*.wikipedia.org/*"],
         "js": ["contentscript.js"],
         "run_at":"document_end"
       }
-  ],
-  "permissions": [
-    "activeTab"
   ],
   "icons": { "128": "icon128.png" }
 }
