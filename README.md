@@ -11,5 +11,5 @@ http://www.wiki-ads.com/
  2. Buy advertising
  3. Contribute on Github
  4. Donate to this project via Bitcoin @
-  `1KR2w6h3RvJ8KNTe7mcfYLcLmCiJaVZuYY`. All unused donations will be
+  `19AnMJ9WNN7HMJF1ZpJB2uab7kDkvbLaWV`. All unused donations will be
   donated to Wikipedia and the Wikimedia Foundation.
