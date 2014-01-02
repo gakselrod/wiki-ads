@@ -65,12 +65,13 @@ docWrite2 = "    document.write = function(str) {"+
 newDiv = document.createElement("div");
 newDiv.setAttribute("id","wikiAdDiv");
 newDiv.style.marginLeft="25px";
-newDiv.style.float="left";
 
 //insert the ad div.
 var container = document.getElementById("mw-head");
-if (container)
+if (container) {
+	newDiv.style.float="left";
 	container.insertBefore(newDiv,document.getElementById("right-navigation"));
+}
 else { //If we're not on Wikipedia.org, just insert it at the top of the body.
 	newDiv.style.textAlign="center";
 	document.body.insertBefore(newDiv,document.body.firstChild);
