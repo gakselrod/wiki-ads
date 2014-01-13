@@ -114,3 +114,18 @@ document.getElementById("mw-head").style.height="100px";
 document.getElementById("mw-head-base").style.height="91px";
 document.getElementById("p-namespaces").style.marginTop="11px";
 document.getElementById("right-navigation").style.marginTop="51px";
+
+/*
+// toyed with adding a small question mark at the top right of the banner that links back to wiki-ads.com
+//Decided it didn't look good, so commenting it out until we find a better design.
+var qmark = document.createElement("span");
+qmark.style.verticalAlign="text-top";
+qmark.style.float="right";
+qmark.style.fontSize="small";
+//qmark.style.marginLeft="-30px";
+//qmark.style.zIndex="999";
+qmark.innerHTML = "<a href=\"http://www.wiki-ads.com\">&#63;</a>";
+
+newDiv.appendChild(qmark);
+*/
+
