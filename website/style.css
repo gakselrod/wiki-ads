@@ -79,3 +79,10 @@ pre {
   background-color: #FFFFFF;
   padding-bottom: 8px;
 }
+
+.header {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 32px;
+}
